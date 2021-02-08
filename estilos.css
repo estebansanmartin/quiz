@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.content {
+    width: 450px;
+}
+button {
+    font-family: 'Roboto Mono', monospace !important;
+}
+ul {
+    list-style-type: none !important;
+}
+.font-title {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    font-size: 2.3rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+}
+.font-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    font-weight: 400 !important;
+    letter-spacing: 4px;
+}
+.font-score {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+}
+.button-score {
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #02c39a !important;
+    font-weight: 300 !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

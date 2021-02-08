@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto+Mono:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body class="has-background-white-ter">
+    <div class="card" id="quiz">
+        <div class="card-content content">
+            <h2 class="font-title" id="domanda">Testo domanda</h2>
+            <ul class="font-text">
+                <li>
+                    <input type="radio" id="a" name="risposta" class="risposta">
+                    <label id="a_text" class="radio" for="a">Domanda</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="risposta" class="risposta">
+                    <label id="b_text" class="radio" for="b">Domanda</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="risposta" class="risposta">
+                    <label id="c_text" class="radio" for="c">Domanda</label>
+                </li>
+            </ul>
+            <button id="submit" class="button is-primary is-fullwidth">Inviare</button>
+        </div>
+    </div>
+</body>
+</html>
